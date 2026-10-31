@@ -10,7 +10,7 @@ public class Main{
         Scanner sc=new Scanner(System.in);
         boolean flag=true;
         while(flag){
-            System.out.println("1 添加课程/2 查看所有课程/3 查找课程/4 退出/5 调课/6 按星期查询");
+            System.out.println("1 添加课程/2 查看所有课程（join连表查询）/3 查找课程/4 退出/5 调课/6 按星期查询");
             int n= 0;
             try{
                 n = sc.nextInt();
